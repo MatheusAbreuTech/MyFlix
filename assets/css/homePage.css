@@ -1,0 +1,68 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos {
+    max-width: 660px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo h1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    color: #282727;
+}
+
+.logo h1 span {
+    color: var(--red);
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #282727;
+}
+
+h3 span {
+    color: var(--red);
+}
+
+.buttons a {
+    padding: 1rem 4rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.list_button {
+    background-color: var(--pink);
+}
+
+.add_button {
+    background-color: var(--red);
+}
+
+.buttons a:hover {
+    opacity: 0.9;
+}
