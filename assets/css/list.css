@@ -1,0 +1,70 @@
+.section-list {
+    overflow-x: auto;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--title);
+    margin: 4rem 0;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    background: var(--pink);
+}
+
+.tabela {
+    border-collapse: initial;
+    width: 100%;
+    border-spacing: 0 0.2rem;
+    color: var(--text-list);
+}
+
+.tabela th,
+.tabela td {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+
+.tabela thead {
+    background: var(--bg-list-title);
+}
+
+.tabela tbody {
+    background: var(--bg-list-itens);
+}
+
+.tabela thead tr th:first-child,
+.tabela tbody tr td:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.tabela thead tr th:last-child,
+.tabela tbody tr td:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.buttons i {
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+
+.buttons i:hover {
+    color: #dacece;
+}
+
+@media screen and (max-width: 620px) {
+    h2 {
+        font-size: 30px;
+    }
+}
