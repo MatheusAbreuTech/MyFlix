@@ -33,35 +33,66 @@
             </nav>
         </aside>
 
-        <div class="content">
-            <div class="container">
-                <h2>Meus Filmes e Séries</h2>
-                <div class="section-list">
-                    <table class="tabela">
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Gênero</th>
-                                <th>Tipo</th>
-                                <th>Plataforma</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>nome</td>
-                                <td>nome</td>
-                                <td>nome</td>
-                                <td>nome</td>
-                                <td class="buttons">
-                                    <i class="bx bx-trash-alt"></i>
-                                    <i class="bx bxs-edit"></i>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <main class="content">
+            <div class="section-list">
+                <div class="container">
+                    <h2>Meus Filmes e Séries</h2>
+                    <div class="section-table">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Gênero</th>
+                                    <th>Tipo</th>
+                                    <th>Plataforma</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Homem Aranha Sem Volta Pra Casa</td>
+                                    <td>Ficção, ação</td>
+                                    <td>Filme</td>
+                                    <td>Disney+ plus</td>
+                                    <td>
+                                        <div class="buttons">
+                                            <i id="btnExclui" class="bx bx-trash-alt"></i>
+                                            <i class="bx bxs-edit"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <i class="bx bx-error"></i>
+                <h3>
+                    Deseja mesmo excluir este item da lista? Após confirmar, não será possível
+                    recuperá-lo.
+                </h3>
+                <div class="modal-buttons">
+                    <button class="btn-confirm">Confirmar</button>
+                    <button id="btn-fechaModal" class="btn-cancel">Cancelar</button>
                 </div>
             </div>
         </div>
     </body>
+
+    <script>
+        const btnExcluir = document.querySelector("#btnExclui");
+        const btnFechaModal = document.querySelector("#btn-fechaModal");
+
+        btnExcluir.addEventListener("click", () => {
+            document.querySelector(".modal-overlay").classList.add("active");
+        });
+
+        btnFechaModal.addEventListener("click", () => {
+            document.querySelector(".modal-overlay").classList.remove("active");
+        });
+    </script>
 </html>

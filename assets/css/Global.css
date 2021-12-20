@@ -57,6 +57,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 999;
 }
 
 .listItens {
@@ -88,7 +89,7 @@ li:hover {
 }
 
 .container {
-    width: min(90vw, 800px);
+    width: min(80vw, 800px);
     margin: auto;
 }
 
@@ -102,7 +103,7 @@ li:hover {
     }
 
     .content {
-        width: calc(100%-80px);
+        width: calc(100% - 80px);
     }
 }
 
