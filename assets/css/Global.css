@@ -89,8 +89,36 @@ li:hover {
 }
 
 .container {
-    width: min(80vw, 800px);
+    width: min(80vw, 900px);
     margin: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;*/
+}
+
+.title_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--title);
+    margin: 4rem 0;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    background: var(--pink);
 }
 
 @media screen and (max-width: 830px) {
@@ -146,5 +174,13 @@ li:hover {
         position: relative;
         bottom: 0;
         width: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .title::after {
+        width: 70px;
     }
 }

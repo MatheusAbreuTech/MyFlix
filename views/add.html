@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../assets/css/Global.css" />
+        <link rel="stylesheet" href="../assets/css/add.css" />
+        <title>MyFlix</title>
+    </head>
+    <body>
+        <aside>
+            <nav class="sideboard">
+                <ul>
+                    <li class="listItens">
+                        <a href="list.html">
+                            <i class="bx bx-list-ul"></i>
+                        </a>
+                    </li>
+                    <li class="addItem">
+                        <a href="add.html">
+                            <i class="bx bx-add-to-queue"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="container">
+                <div class="section-form">
+                    <div class="title_page">
+                        <h2 class="title">Adicionar</h2>
+                    </div>
+                    <div class="form">
+                        <form action="" onsubmit="form(event)">
+                            <div class="inputNome">
+                                <label for="" class="sr-only">Nome</label>
+                                <input type="text" placeholder="Nome" />
+                            </div>
+                            <div class="inputGenero">
+                                <label for="" class="sr-only">Gênero</label>
+                                <input type="text" placeholder="Gênero" />
+                            </div>
+                            <div class="inputTipo">
+                                <label for="" class="sr-only">Tipo</label>
+                                <input type="text" placeholder="Tipo" />
+                            </div>
+                            <div class="inputPlataforma">
+                                <label for="" class="sr-only">Plataforma</label>
+                                <input type="text" placeholder="Plataforma" />
+                            </div>
+                            <button class="btn-openModal" type="submit">Adicionar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
