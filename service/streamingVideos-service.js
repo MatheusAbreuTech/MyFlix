@@ -8,6 +8,28 @@ const listaStreaming = () => {
     })
 }
 
+const criaStreaming = (nome, genero, tipo, plataforma) => {
+    return fetch(`http://localhost:3000/streamingVideos`, {
+        method: 'POST',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify({
+            nome: nome,
+            genero: genero,
+            tipo: tipo,
+            plataforma: plataforma
+        })
+    })
+        .then(resposta => {
+            if (resposta.ok) {
+                return resposta.body
+            }
+            throw new Error('Não foi possível criar um item')
+    })
+}
+
 export const streamingService = {
-    listaStreaming
+    listaStreaming,
+    criaStreaming
 }
