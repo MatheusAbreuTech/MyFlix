@@ -1,0 +1,14 @@
+{
+  "name": "myflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "scripts": {
+    "startDB": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

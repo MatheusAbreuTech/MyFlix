@@ -1,0 +1,11 @@
+{
+    "streamingVideos": [
+      {
+        "id": 1,
+        "nome": "Homem Aranha: Sem Volta pra Casa",
+        "genero": "Ação, Ficção",
+        "tipo": "Filme",
+        "plataforma": "Disney Plus"
+      }
+    ]
+  }

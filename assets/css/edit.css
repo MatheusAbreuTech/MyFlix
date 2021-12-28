@@ -1,0 +1,9 @@
+.title::after {
+    width: 70px;
+}
+
+@media screen and (max-width: 620px) {
+    .title::after {
+        width: 50px;
+    }
+}

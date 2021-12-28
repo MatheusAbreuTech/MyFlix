@@ -19,12 +19,12 @@
         <aside>
             <nav class="sideboard">
                 <ul>
-                    <li class="listItens">
+                    <li class="menuItem">
                         <a href="list.html">
                             <i class="bx bx-list-ul"></i>
                         </a>
                     </li>
-                    <li class="addItem">
+                    <li class="menuItem">
                         <a href="add.html">
                             <i class="bx bx-add-to-queue"></i>
                         </a>
@@ -50,19 +50,8 @@
                                     <th></th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Homem Aranha Sem Volta Pra Casa</td>
-                                    <td>Ficção, ação</td>
-                                    <td>Filme</td>
-                                    <td>Disney+ plus</td>
-                                    <td>
-                                        <div class="buttons">
-                                            <i id="btnExclui" class="bx bx-trash-alt"></i>
-                                            <i class="bx bxs-edit"></i>
-                                        </div>
-                                    </td>
-                                </tr>
+                            <tbody data-tabela>
+                                
                             </tbody>
                         </table>
                     </div>
@@ -85,7 +74,9 @@
         </div>
     </body>
 
-    <script>
+    <script type="module" src="../controller/listaStreaming-controller.js"></script>
+
+    <!-- <script>
         const btnExcluir = document.querySelector("#btnExclui");
         const btnFechaModal = document.querySelector("#btn-fechaModal");
 
@@ -96,5 +87,5 @@
         btnFechaModal.addEventListener("click", () => {
             document.querySelector(".modal-overlay").classList.remove("active");
         });
-    </script>
+    </script> -->
 </html>
