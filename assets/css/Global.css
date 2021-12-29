@@ -32,14 +32,13 @@
     --red: #e53f42;
     --pink: #7e73ff;
     --text-alert: #5e5e66;
-    --bg: #f3f3f3;
     --title-home: #282727;
     --btn-close: #3d3d3d;
 }
 
 body {
     height: 100vh;
-    background-color: var(--bg);
+    background-color: #fff;
     font-family: "Inter", sans-serif;
 }
 
