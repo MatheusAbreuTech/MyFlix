@@ -1,160 +1,53 @@
 {
   "streamingVideos": [
     {
-      "id": 1,
-      "nome": "Homem Aranha: Sem Volta pra Casa",
-      "genero": "Ação, Ficção",
-      "tipo": "Filme",
-      "plataforma": "Disney Plus"
-    },
-    {
-      "nome": "Homem de Ferro",
-      "genero": "Ação",
-      "tipo": "Filme",
-      "plataforma": "Disney Plus",
+      "nome": "test",
+      "genero": "ola",
+      "tipo": "as",
+      "plataforma": "as",
       "id": 2
     },
     {
-      "nome": "",
-      "genero": "",
-      "tipo": "",
-      "plataforma": "",
+      "nome": "fd",
+      "genero": "df",
+      "tipo": "fd",
+      "plataforma": "df",
       "id": 3
     },
     {
-      "nome": {
-        "nome": "asdasd",
-        "genero": "asdasd",
-        "tipo": "asdsad",
-        "plataforma": "asdasd"
-      },
+      "nome": "ad",
+      "genero": "asd",
+      "tipo": "fds",
+      "plataforma": "asd",
       "id": 4
     },
     {
-      "nome": "asdsad",
-      "genero": "sadasd",
-      "tipo": "sadsad",
+      "nome": "sadasd",
+      "genero": "asdas",
+      "tipo": "dsad",
       "plataforma": "asdasd",
       "id": 5
     },
     {
-      "nome": "sadasdsad",
-      "genero": "asdsadasd",
-      "tipo": "asdsadasd",
-      "plataforma": "asdasdsad",
+      "nome": "fsddsf",
+      "genero": "sdfsd",
+      "tipo": "fsdf",
+      "plataforma": "sdf",
       "id": 6
     },
     {
-      "nome": "teste",
-      "genero": "teste",
-      "tipo": "teste",
-      "plataforma": "teste",
+      "nome": "sdfsdf",
+      "genero": "sdfsd",
+      "tipo": "fsdfsd",
+      "plataforma": "fsdf",
       "id": 7
     },
     {
-      "nome": "asdasd",
-      "genero": "asdas",
-      "tipo": "dasd",
-      "plataforma": "asd",
-      "id": 8
-    },
-    {
-      "nome": "adsa",
-      "genero": "dsadasd",
-      "tipo": "asdasd",
-      "plataforma": "asd",
-      "id": 9
-    },
-    {
-      "nome": "Loki",
-      "genero": "Ação",
-      "tipo": "Série",
-      "plataforma": "Disney Plus",
-      "id": 10
-    },
-    {
-      "nome": "WandaVision",
-      "genero": "Ação, Ficção",
-      "tipo": "Série",
-      "plataforma": "Disney Plus",
-      "id": 11
-    },
-    {
-      "nome": "asdas",
-      "genero": "dasdas",
-      "tipo": "dasdas",
-      "plataforma": "dasdasd",
-      "id": 12
-    },
-    {
-      "nome": "asdasd",
-      "genero": "sad",
-      "tipo": "asd",
-      "plataforma": "sad",
-      "id": 13
-    },
-    {
-      "nome": "sdfsdf",
+      "nome": "sfddsf",
       "genero": "sdfsdf",
       "tipo": "sdfsdf",
       "plataforma": "sdfsdf",
-      "id": 14
-    },
-    {
-      "nome": "asdas",
-      "genero": "dasdas",
-      "tipo": "dsadas",
-      "plataforma": "asd",
-      "id": 15
-    },
-    {
-      "nome": "asdasd",
-      "genero": "asdasd",
-      "tipo": "sadas",
-      "plataforma": "dsad",
-      "id": 16
-    },
-    {
-      "nome": "asdas",
-      "genero": "asdasd",
-      "tipo": "asdas",
-      "plataforma": "dasd",
-      "id": 17
-    },
-    {
-      "nome": "asd",
-      "genero": "asd",
-      "tipo": "sad",
-      "plataforma": "asd",
-      "id": 18
-    },
-    {
-      "nome": "asd",
-      "genero": "sad",
-      "tipo": "asd",
-      "plataforma": "sda",
-      "id": 19
-    },
-    {
-      "nome": "sa",
-      "genero": "sa",
-      "tipo": "as",
-      "plataforma": "sa",
-      "id": 20
-    },
-    {
-      "nome": "a",
-      "genero": "a",
-      "tipo": "a",
-      "plataforma": "a",
-      "id": 21
-    },
-    {
-      "nome": "v",
-      "genero": "v",
-      "tipo": "v",
-      "plataforma": "v",
-      "id": 22
+      "id": 8
     }
   ]
 }

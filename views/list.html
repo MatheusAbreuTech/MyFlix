@@ -11,6 +11,7 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
         <link rel="stylesheet" href="../assets/css/Global.css" />
         <link rel="stylesheet" href="../assets/css/list.css" />
         <title>MyFlix</title>
@@ -74,18 +75,21 @@
         </div>
     </body>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script type="module" src="../controller/listaStreaming-controller.js"></script>
+    <script type="module" src="../controller/excluiStreaming-controller.js"></script>
 
-    <!-- <script>
-        const btnExcluir = document.querySelector("#btnExclui");
-        const btnFechaModal = document.querySelector("#btn-fechaModal");
+    <script>
+        // const btnExcluir = document.getElementsByClassName('.btn_openModal')
 
-        btnExcluir.addEventListener("click", () => {
-            document.querySelector(".modal-overlay").classList.add("active");
-        });
+        // const btnFechaModal = document.querySelector("#btn-fechaModal");
 
-        btnFechaModal.addEventListener("click", () => {
-            document.querySelector(".modal-overlay").classList.remove("active");
-        });
-    </script> -->
+        // btnExcluir.addEventListener("click", () => {
+        //     document.querySelector(".modal-overlay").classList.add("active");
+        // });
+
+        // btnFechaModal.addEventListener("click", () => {
+        //     document.querySelector(".modal-overlay").classList.remove("active");
+        // });
+    </script>
 </html>

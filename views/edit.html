@@ -41,22 +41,22 @@
                         <h2 class="title">Editar</h2>
                     </div>
                     <div class="form">
-                        <form action="" onsubmit="form(event)">
+                        <form action="" data-form>
                             <div class="inputNome">
                                 <label for="" class="sr-only">Nome</label>
-                                <input type="text" placeholder="Nome" />
+                                <input type="text" placeholder="Nome" data-nome />
                             </div>
                             <div class="inputGenero">
                                 <label for="" class="sr-only">Gênero</label>
-                                <input type="text" placeholder="Gênero" />
+                                <input type="text" placeholder="Gênero" data-genero />
                             </div>
                             <div class="inputTipo">
                                 <label for="" class="sr-only">Tipo</label>
-                                <input type="text" placeholder="Tipo" />
+                                <input type="text" placeholder="Tipo" data-tipo />
                             </div>
                             <div class="inputPlataforma">
                                 <label for="" class="sr-only">Plataforma</label>
-                                <input type="text" placeholder="Plataforma" />
+                                <input type="text" placeholder="Plataforma" data-plataforma />
                             </div>
                             <button class="btn-openModal" type="submit">Adicionar</button>
                         </form>
@@ -74,5 +74,7 @@
                 </div>
             </div>
         </div>
+
+        <script type="module" src="../controller/atualizaStreaming-controller.js"></script>
     </body>
 </html>
