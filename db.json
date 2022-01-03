@@ -27,6 +27,20 @@
       "tipo": "Série",
       "plataforma": "Disney Plus",
       "id": 4
+    },
+    {
+      "nome": "Wanda Vision",
+      "genero": "Ficção, Ação",
+      "tipo": "Série",
+      "plataforma": "Disney Plus",
+      "id": 5
+    },
+    {
+      "nome": "Homem de Ferro",
+      "genero": "Ação",
+      "tipo": "Filme",
+      "plataforma": "Disney Plus",
+      "id": 6
     }
   ]
 }
