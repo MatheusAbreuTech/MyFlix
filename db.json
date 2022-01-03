@@ -1,53 +1,32 @@
 {
   "streamingVideos": [
     {
-      "nome": "test",
-      "genero": "ola",
-      "tipo": "as",
-      "plataforma": "as",
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "genero": "Fantasia",
+      "tipo": "Filme",
+      "plataforma": "HBO Max",
+      "id": 1
+    },
+    {
+      "nome": "Vingadores Ultimato",
+      "genero": "Ação, Ficção",
+      "tipo": "Filme",
+      "plataforma": "Disney Plus",
       "id": 2
     },
     {
-      "nome": "fd",
-      "genero": "df",
-      "tipo": "fd",
-      "plataforma": "df",
+      "nome": "Não Olhe para Cima",
+      "genero": "Ficção",
+      "tipo": "Filme",
+      "plataforma": "Netflix",
       "id": 3
     },
     {
-      "nome": "ad",
-      "genero": "asd",
-      "tipo": "fds",
-      "plataforma": "asd",
+      "nome": "Loki",
+      "genero": "Ficção",
+      "tipo": "Série",
+      "plataforma": "Disney Plus",
       "id": 4
-    },
-    {
-      "nome": "sadasd",
-      "genero": "asdas",
-      "tipo": "dsad",
-      "plataforma": "asdasd",
-      "id": 5
-    },
-    {
-      "nome": "fsddsf",
-      "genero": "sdfsd",
-      "tipo": "fsdf",
-      "plataforma": "sdf",
-      "id": 6
-    },
-    {
-      "nome": "sdfsdf",
-      "genero": "sdfsd",
-      "tipo": "fsdfsd",
-      "plataforma": "fsdf",
-      "id": 7
-    },
-    {
-      "nome": "sfddsf",
-      "genero": "sdfsdf",
-      "tipo": "sdfsdf",
-      "plataforma": "sdfsdf",
-      "id": 8
     }
   ]
 }

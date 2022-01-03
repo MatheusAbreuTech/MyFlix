@@ -18,8 +18,9 @@ function validate() {
         tipo.trim() === "" ||
         plataforma.trim() === ""
     ) {
+        alert("Por favor, preencha todos os campos");
+
         throw new Error("Por favor, preencha todos os campos");
-        // window.location.href = "../views/error.html";
     }
 }
 
@@ -33,9 +34,9 @@ formulario.addEventListener("submit", (evento) => {
         const { nome, genero, tipo, plataforma } = getValues();
         const addStreaming = async () => {
             await streamingService.criaStreaming(nome, genero, tipo, plataforma);
+            window.location.href = "../views/success.html";
         };
         addStreaming();
-        // window.location.href = "../views/success.html";
     } catch (error) {
         console.log(error);
     }

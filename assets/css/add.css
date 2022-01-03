@@ -41,7 +41,7 @@ input {
     line-height: 22px;
 }
 
-button {
+.btn-add {
     width: 100%;
     height: 50px;
     border: none;
@@ -55,7 +55,7 @@ button {
     background: var(--red);
 }
 
-button:hover {
+.btn-add:hover {
     opacity: 0.9;
 }
 
@@ -112,7 +112,7 @@ input::placeholder {
 
 @media screen and (max-width: 620px) {
     input,
-    button {
+    .btn-add {
         font-size: 16px;
     }
 

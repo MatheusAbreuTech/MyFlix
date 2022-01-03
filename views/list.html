@@ -36,6 +36,14 @@
 
         <main class="content">
                 <div class="container">
+                    <div class="header">
+                        <button type="button" class="arrow" onclick="window.history.back()">
+                            <img src="../assets/img/arrow.svg" alt="" />
+                        </button>
+                        <div class="logo_header">
+                            <a href="index.html">My<span>flix</span></a>
+                        </div>
+                    </div>
                     <div class="title_page">
                         <h2 class="title">Meus Filmes e Séries</h2>
                     </div>
@@ -73,23 +81,7 @@
                 </div>
             </div>
         </div>
+        <script type="module" src="../controller/listaStreaming-controller.js"></script>
+        <script type="module" src="../controller/excluiStreaming-controller.js"></script>
     </body>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script type="module" src="../controller/listaStreaming-controller.js"></script>
-    <script type="module" src="../controller/excluiStreaming-controller.js"></script>
-
-    <script>
-        // const btnExcluir = document.getElementsByClassName('.btn_openModal')
-
-        // const btnFechaModal = document.querySelector("#btn-fechaModal");
-
-        // btnExcluir.addEventListener("click", () => {
-        //     document.querySelector(".modal-overlay").classList.add("active");
-        // });
-
-        // btnFechaModal.addEventListener("click", () => {
-        //     document.querySelector(".modal-overlay").classList.remove("active");
-        // });
-    </script>
 </html>

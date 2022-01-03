@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../assets/css/Global.css" />
+        <link rel="stylesheet" href="../assets/css/success.css" />
+        <title>MyFlix</title>
+    </head>
+    <body>
+        <aside>
+            <nav class="sideboard">
+                <ul>
+                    <li class="menuItem">
+                        <a href="list.html">
+                            <i class="bx bx-list-ul"></i>
+                        </a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="add.html">
+                            <i class="bx bx-add-to-queue"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="container">
+                <div class="header">
+                    <button type="button" class="arrow" onclick="window.history.back()">
+                        <img src="../assets/img/arrow.svg" alt="" />
+                    </button>
+                    <div class="logo_header">
+                        <a href="index.html">My<span>flix</span></a>
+                    </div>
+                </div>
+                <div class="alert-success">
+                    <div class="icon-success">
+                        <i class="bx bx-check-circle"></i>
+                    </div>
+                    <div class="message-success">
+                        <h2>Item adicionado com sucesso!</h2>
+                    </div>
+                    <p>Escolha o que deseja fazer agora.</p>
+                    <div class="buttons">
+                        <a href="list.html" class="list_button">Minha lista</a>
+                        <a href="add.html" class="add_button">Adicionar mais</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

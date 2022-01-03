@@ -35,6 +35,14 @@
 
         <main class="content">
             <div class="container">
+                <div class="header">
+                    <button type="button" class="arrow" onclick="window.history.back()">
+                        <img src="../assets/img/arrow.svg" alt="" />
+                    </button>
+                    <div class="logo_header">
+                        <a href="index.html">My<span>flix</span></a>
+                    </div>
+                </div>
                 <div class="section-form">
                     <div class="title_page">
                         <h2 class="title">Adicionar</h2>
@@ -57,22 +65,12 @@
                                 <label for="" class="sr-only">Plataforma</label>
                                 <input type="text" placeholder="Plataforma" data-plataforma />
                             </div>
-                            <button class="btn-openModal" type="submit">Adicionar</button>
+                            <button class="btn-add" type="submit">Adicionar</button>
                         </form>
                     </div>
                 </div>
             </div>
         </main>
-
-        <div role="alert" class="modal-overlay">
-            <div class="container">
-                <div class="modal">
-                    <i id="btn_close_modal" class="bx bx-x"></i>
-                    <h3>Item adicionado com sucesso!</h3>
-                    <i class="bx bx-check-circle"></i>
-                </div>
-            </div>
-        </div>
 
         <script type="module" src="../controller/cadastraStreaming-controller.js"></script>
     </body>

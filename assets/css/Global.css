@@ -33,7 +33,7 @@
     --pink: #7e73ff;
     --text-alert: #5e5e66;
     --title-home: #282727;
-    --btn-close: #3d3d3d;
+    --gray: #3d3d3d;
 }
 
 body {
@@ -91,6 +91,31 @@ aside {
 .container {
     width: min(80vw, 900px);
     margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header .logo_header a {
+    text-decoration: none;
+    color: var(--gray);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header .logo_header a span {
+    color: var(--red);
 }
 
 .title_page {
