@@ -1,27 +1,34 @@
 # MyFlix
 
-<img src="./assets/img/img-example.png" alt="exemplo imagem">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items:center">
+    <img src="./assets/img/home.png" alt="exemplo imagem" style="width:450px">
+    <img src="./assets/img/list.png" alt="exemplo imagem"style="width:450px">
+    <img src="./assets/img/add.png" alt="exemplo imagem"style="width:450px">
+    <img src="./assets/img/edit.png" alt="exemplo imagem"style="width:450px">
+    <img src="./assets/img/success.png" alt="exemplo imagem"style="width:450px">
+    <img src="./assets/img/error.png" alt="exemplo imagem"style="width:450px">
+</div>
 
 > MyFlix tem como objetivo guardar nomes de filmes ou séries que você deseja ver ou já viu, podendo excluir e editar.
 
 ## Técnologias usadas
 
--   JavaScript
--   HTML5
--   CSS3
+- JavaScript
+- HTML5
+- CSS3
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
--   Você possuí o node instalado em sua máquina.
+- Você possuí o node instalado em sua máquina.
 
 ## 🚀 Instalando MyFlix
 
 Para instalar o MyFlix, siga estas etapas:
 
--   Crie uma pasta em seu computador
--   Em seguida, abra essa pasta em um terminal e digite:
+- Crie uma pasta em seu computador
+- Em seguida, abra essa pasta em um terminal e digite:
 
 ```
 git clone https://github.com/MthAbreu/MyFlix.git
