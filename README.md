@@ -21,7 +21,7 @@
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você possuí o node instalado em sua máquina.
+- Você possuí o `node` instalado em sua máquina.
 
 ## 🚀 Instalando MyFlix
 
