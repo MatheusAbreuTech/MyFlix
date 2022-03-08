@@ -1,12 +1,12 @@
 # MyFlix
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items:center">
-    <img src="./assets/img/home.png" alt="exemplo imagem" style="width:450px">
-    <img src="./assets/img/list.png" alt="exemplo imagem"style="width:450px">
-    <img src="./assets/img/add.png" alt="exemplo imagem"style="width:450px">
-    <img src="./assets/img/edit.png" alt="exemplo imagem"style="width:450px">
-    <img src="./assets/img/success.png" alt="exemplo imagem"style="width:450px">
-    <img src="./assets/img/error.png" alt="exemplo imagem"style="width:450px">
+    <img src="./assets/img/home.png" alt="exemplo imagem" style="width:400px">
+    <img src="./assets/img/list.png" alt="exemplo imagem"style="width:400px">
+    <img src="./assets/img/add.png" alt="exemplo imagem"style="width:400px">
+    <img src="./assets/img/edit.png" alt="exemplo imagem"style="width:400px">
+    <img src="./assets/img/success.png" alt="exemplo imagem"style="width:400px">
+    <img src="./assets/img/error.png" alt="exemplo imagem"style="width:400px">
 </div>
 
 > MyFlix tem como objetivo guardar nomes de filmes ou séries que você deseja ver ou já viu, podendo excluir e editar.
