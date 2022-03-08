@@ -6,22 +6,22 @@
 
 ## Técnologias usadas
 
--   JavaScript
--   HTML5
--   CSS3
+- JavaScript
+- HTML5
+- CSS3
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
--   Você possuí o node instalado em sua máquina.
+- Você possuí o `node` instalado em sua máquina.
 
 ## 🚀 Instalando MyFlix
 
 Para instalar o MyFlix, siga estas etapas:
 
--   Crie uma pasta em seu computador
--   Em seguida, abra essa pasta em um terminal e digite:
+- Crie uma pasta em seu computador
+- Em seguida, abra essa pasta em um terminal e digite:
 
 ```
 git clone https://github.com/MthAbreu/MyFlix.git
@@ -35,6 +35,16 @@ Execute o seguinte comando em seu terminal para instalar todas as dependencias d
 
 ```
 npm install
+```
+
+Mude as URLs localizadas no diretório service/streamingVideos-service.js, para que possa efetuar as operações e salva-las.
+
+```
+fetch(`https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos`)
+
+para
+
+fetch(`http://localhost:3000/streamingVideos`)
 ```
 
 Para rodar o json-server:
