@@ -15,7 +15,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../assets/css/Global.css" />
-    <link rel="stylesheet" href="../assets/css/error.css" />
+    <link rel="stylesheet" href="../assets/css/homePage.css" />
+
     <title>MyFlix</title>
   </head>
   <body>
@@ -23,12 +24,12 @@
       <nav class="sideboard">
         <ul>
           <li class="menuItem">
-            <a href="list.html">
+            <a href="./views/list.html">
               <i class="bx bx-list-ul"></i>
             </a>
           </li>
           <li class="menuItem">
-            <a href="add.html">
+            <a href="./views/add.html">
               <i class="bx bx-add-to-queue"></i>
             </a>
           </li>
@@ -36,30 +37,22 @@
       </nav>
     </aside>
 
-    <main class="content">
-      <div class="container">
-        <div class="header">
-          <button type="button" class="arrow" onclick="window.history.back()">
-            <img src="../assets/img/arrow.svg" alt="" />
-          </button>
-          <div class="logo_header">
-            <a href="../index.html">My<span>flix</span></a>
-          </div>
+    <div class="content">
+      <div class="infos">
+        <div class="logo">
+          <h1>My<span>Flix</span></h1>
         </div>
-        <div class="alert-error">
-          <div class="icon-error">
-            <i class="bx bx-error"></i>
-          </div>
-          <div class="message-error">
-            <h2>Oh não, ocorreu um erro. Tente novamente.</h2>
-          </div>
-          <div class="buttons">
-            <button onclick="window.history.back()" class="add_button">
-              Voltar
-            </button>
-          </div>
+
+        <h3>
+          Bem vindo ao My<span>Flix</span>. Aqui você pode adicionar seus filmes
+          e séries favoritos!
+        </h3>
+
+        <div class="buttons">
+          <a href="./views/list.html" class="list_button">Minha lista</a>
+          <a href="./views/add.html" class="add_button">Adicionar</a>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
