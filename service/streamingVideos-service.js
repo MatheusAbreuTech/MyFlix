@@ -1,5 +1,7 @@
 const listaStreaming = () => {
-  return fetch(`http://localhost:3000/streamingVideos`).then((resposta) => {
+  return fetch(
+    `https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos`
+  ).then((resposta) => {
     if (resposta.ok) {
       return resposta.json();
     }
@@ -8,18 +10,21 @@ const listaStreaming = () => {
 };
 
 const criaStreaming = (nome, genero, tipo, plataforma) => {
-  return fetch(`http://localhost:3000/streamingVideos`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      nome: nome,
-      genero: genero,
-      tipo: tipo,
-      plataforma: plataforma,
-    }),
-  }).then((resposta) => {
+  return fetch(
+    `https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        nome: nome,
+        genero: genero,
+        tipo: tipo,
+        plataforma: plataforma,
+      }),
+    }
+  ).then((resposta) => {
     if (resposta.ok) {
       return resposta.body;
     }
@@ -28,9 +33,12 @@ const criaStreaming = (nome, genero, tipo, plataforma) => {
 };
 
 const removeStreaming = (id) => {
-  return fetch(`http://localhost:3000/streamingVideos/${id}`, {
-    method: "DELETE",
-  }).then((resposta) => {
+  return fetch(
+    `https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos/${id}`,
+    {
+      method: "DELETE",
+    }
+  ).then((resposta) => {
     if (!resposta.ok) {
       throw new Error("Não foi possível remover o item");
     }
@@ -38,29 +46,32 @@ const removeStreaming = (id) => {
 };
 
 const detalhaStreaming = (id) => {
-  return fetch(`http://localhost:3000/streamingVideos/${id}`).then(
-    (resposta) => {
-      if (resposta.ok) {
-        return resposta.json();
-      }
-      throw new Error("Não foi possível detalhar o item");
+  return fetch(
+    `https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos/${id}`
+  ).then((resposta) => {
+    if (resposta.ok) {
+      return resposta.json();
     }
-  );
+    throw new Error("Não foi possível detalhar o item");
+  });
 };
 
 const atualizaStreaming = (id, nome, genero, tipo, plataforma) => {
-  return fetch(`http://localhost:3000/streamingVideos/${id}`, {
-    method: "PUT",
-    headers: {
-      "Content-type": "application/json",
-    },
-    body: JSON.stringify({
-      nome: nome,
-      genero: genero,
-      tipo: tipo,
-      plataforma: plataforma,
-    }),
-  }).then((resposta) => {
+  return fetch(
+    `https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos/${id}`,
+    {
+      method: "PUT",
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify({
+        nome: nome,
+        genero: genero,
+        tipo: tipo,
+        plataforma: plataforma,
+      }),
+    }
+  ).then((resposta) => {
     if (resposta.ok) {
       return resposta.json();
     }

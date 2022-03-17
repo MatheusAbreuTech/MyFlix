@@ -50,7 +50,7 @@ Para rodar o json-server:
 npm start
 ```
 
-Abra um arquivo .html com a extensão live-server do vsCode ou baixe a extensão browser-sync com o seguinte comando:
+Abra o arquivo index.html com a extensão live-server do vsCode ou baixe a extensão browser-sync com o seguinte comando:
 
 ```
 npm install browser-sync
@@ -60,6 +60,16 @@ Em seguida rode o servidor do browser-sync:
 
 ```
 npm browser-sync start --server --file . --host --port 5000 --startPath MyFlix/views/index.html
+```
+
+Para ter uma experiência melhor, mude as URLs das requisições no diretório service/streamingVideos-service.js:
+
+```
+fetch(`https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos`)
+
+para
+
+fetch(`http://localhost:3000/streamingVideos`)
 ```
 
 ## 📫 Contribuindo para MyFlix
