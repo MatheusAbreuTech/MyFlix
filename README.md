@@ -62,14 +62,10 @@ Em seguida rode o servidor do browser-sync:
 npm browser-sync start --server --file . --host --port 5000 --startPath MyFlix/views/index.html
 ```
 
-Para ter uma experiência melhor, mude as URLs das requisições no diretório service/streamingVideos-service.js:
+Por conta de eu ter usado o json-server, ao executar o projeto, só poderá ser possível vizualizar o design do projeto e a listagem dos itens já cadastrados no "banco". Para ter uma experiência melhor e efetuar todas as funcionalidades do projeto, coloque essa URL nas requisições no diretório service/streamingVideos-service.js:
 
 ```
-fetch(`https://my-json-server.typicode.com/MatheusAbreuTech/MyFlix-db/streamingVideos`)
-
-para
-
-fetch(`http://localhost:3000/streamingVideos`)
+http://localhost:3000/streamingVideos
 ```
 
 ## 📫 Contribuindo para MyFlix
